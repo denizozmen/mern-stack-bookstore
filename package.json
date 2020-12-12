@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "PROJE: Bookstore\r EPIC : - Landing Page - User auth (login system)\r STORY: - Register Page  \r  - Login Page - Dashboard/Profile Page\r STORY: -Dashboard Page - Book List\r STORY: - Book details\r STORY:\r -Ckeckout system\r STORY:\r TECH MERN STACK: - BE node.js server (RESTFul API) - Database MONGODB - View (Client) React - Payment: Stripe - Production-Heroku Deploy",
   "main": "server.js",
+  "engines": {
+    "node": ">=14.15.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,8 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.6"
   }
 }
