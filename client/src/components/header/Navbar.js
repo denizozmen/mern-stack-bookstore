@@ -31,7 +31,7 @@ const Navbar = () => {
     <Header>
       <img
         className="logo"
-        src="https://clarusway.com/wp-content/uploads/2020/09/cw_son_editted.png"
+        src={require("../images/logo_root.gif")}
         alt="logo"
         onClick={handleLogoClick}
       />
