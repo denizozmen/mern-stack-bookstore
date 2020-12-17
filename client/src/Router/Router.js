@@ -33,7 +33,11 @@ function AppRouter() {
             path="/profile"
             component={currentUser ? Dashboard : Signin}
           />
-          <Route exact path="/cart" component={currentUser ? Cart : Signin} />
+          <Route
+            exact
+            path="/cart"
+            component={currentUser ? Cart : Signin}
+          />
           <Route path="/" component={Main} />
         </Switch>
       </Content>
