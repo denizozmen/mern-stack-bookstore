@@ -1,27 +1,48 @@
-PROJE: Bookstore
-EPIC : - Landing Page - User auth (login system)
-STORY: - Register Page
+# MERN-STACK-BOOKSTORE
 
-- Login Page - Dashboard/Profile Page
-  STORY: -Dashboard Page - Book List
-  STORY: - Book details
-  STORY:
-  -Ckeckout system
-  STORY:
-  TECH MERN STACK: - BE node.js server (RESTFul API) - Database MONGODB - View (Client) React - Payment: Stripe - Production-Heroku Deploy
+### Table of Contents
 
-MongoDB - document database
-Express(.js) - Node.js web framework
-React(.js) - a client-side JavaScript framework
-Node(.js) - the premier JavaScript web server
+You're sections headers will be used to reference location of destination.
 
-@@ -1 +1,6 @@
+- [Description](#description)
+<!--
+- [How To Use](#how-to-use)
+- [References](#references)
+- [License](#license) -->
 
-# mern-stack
+- [Author Info](#author-info)
 
-# mern-stack
+---
 
-.env
-MONGODB_URI=
-PORT=
-JWT_SECRET_KEY=
+## Description
+
+#### How To Use
+
+- Apply your ".env" settings.
+  - MONGODB_URI=
+  - PORT=
+  - JWT_SECRET_KEY=
+
+#### Packages Loaded
+
+- express
+- mongoose
+
+#### Technologies
+
+- MongoDB
+- Express
+- React
+- Node
+
+#### Tools
+- VS Code
+- Git
+
+---
+
+## Author Info
+
+- Linkedln - [@denizozmen](https://www.linkedin.com/in/deniz-%C3%B6zmen-66ab161b7/)
+
+
