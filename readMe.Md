@@ -45,4 +45,3 @@ You're sections headers will be used to reference location of destination.
 
 - Linkedln - [@denizozmen](https://www.linkedin.com/in/deniz-%C3%B6zmen-66ab161b7/)
 
-
