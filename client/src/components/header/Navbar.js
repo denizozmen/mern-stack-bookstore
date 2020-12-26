@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 import { Badge } from "antd";
 import { ShoppingCartOutlined } from "@ant-design/icons";
 import { AuthContext } from "../../context/AuthContext";
+import logoroot from "../images/Kurt.png";
 
 const { Header } = Layout;
 
@@ -31,7 +32,7 @@ const Navbar = () => {
     <Header>
       <img
         className="logo"
-        src={require("../images/logo_root.gif")}
+        src={logoroot}
         alt="logo"
         onClick={handleLogoClick}
       />
