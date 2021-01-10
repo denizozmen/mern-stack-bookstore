@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import { Badge } from "antd";
 import { ShoppingCartOutlined } from "@ant-design/icons";
 import { AuthContext } from "../../context/AuthContext";
-import logoroot from "../images/Kurt.png";
+import logoroot from "../images/book.png";
 
 const { Header } = Layout;
 
